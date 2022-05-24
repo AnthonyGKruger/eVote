@@ -1,0 +1,560 @@
+/* header.php stylesheet */
+.html{
+    margin: 0 !important;
+}
+
+.body{
+    margin: 0 0 0 0!important;
+}
+
+.wrapper{
+    margin-top:6%;
+    overflow: scroll;
+}
+
+.navbar{
+    background-color: #006430 ;
+    width: 100%;
+    height: 105px;
+    min-width: 1050px;
+    overflow: hidden;
+    /*position: fixed;*/
+    z-index: 10;
+    top:0;
+    left:0;
+    position:fixed;
+}
+
+.menu-font{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: 'DM Sans';
+    margin-right: 15px;
+}
+
+.menu-font:hover{
+    background-color: #013319;
+}
+
+.nav{
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+.flag{
+    width:149px;
+    float: left;
+}
+
+.logo{
+    width:100px;
+    float:left;
+    font-size: 4em;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.wrapper{
+    height: 705px;
+}
+
+/* index.php */
+.index-container-left{
+    width:30%;
+    height: 604px;
+    float: left;
+    padding-left: 50px;
+}
+
+.call-to-action-text-container{
+    width:88%;
+    margin-top:20%
+}
+
+.call-to-action-text{
+    font-family: 'DM Sans';
+    color: #013319;
+    font-size: 2.5em;
+}
+
+.index-register-button-container{
+    background-color: #006430;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.index-register-button-container:hover{
+    background-color: #013319;
+}
+
+.index-register-button{
+    font-family: "DM Sans";
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.index-container-right{
+    width:50%;
+    float: right;
+}
+
+.index-timer{
+    margin-left: 50%;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 130px;
+    background-color: #006430;
+    /*padding: 2% 0 0 30%;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-message{
+    font-family: "DM Sans";
+    color: white;
+}
+
+/*register.php*/
+.register-container-left{
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.column-30{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+
+.column-70{
+    width: 70%;
+    float:left;
+    margin-top: 10px;
+}
+
+body > div.wrapper > div.register-main-content > div.register-container-left > form > div:nth-child(7) > div.column-70,
+body > div.wrapper > div.register-main-content > div.register-container-left > form > div:nth-child(8) > div.column-70{
+    width:24%;
+}
+
+.form-field{
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #006430;
+    border-radius: 7px;
+}
+
+.form-label{
+    color: #013319;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+}
+
+#register-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    float: right;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+}
+
+#register-button:hover{
+    background-color: #013319;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.register-container-right{
+    padding: 4%;
+    width: 40%;
+    float: right;
+}
+
+.main-heading{
+    color: #013319;
+    font-family: "DM Sans";
+    font-size: 2em;
+}
+
+.second-heading{
+    color: #013319;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+}
+
+.third-heading{
+    color: #013319;
+    font-family: "DM Sans";
+    font-size: 1em;
+}
+
+.register-ajax-message{
+    font-family: DM Sans;
+    font-size: 2.5em;
+    color: #013319;
+}
+
+/*Timer*/
+#timer{
+    font-family: DM Sans;
+    font-size: 2em;
+    color: #013319;
+}
+
+/*login.php*/
+.column-50{
+    width:40%;
+    margin-left:11%;
+    float: left;
+}
+
+.column-50-right{
+    width:40%;
+    float:right;
+    margin-left:50px;
+}
+
+.login-form-container{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+
+#login-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    float: left;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+}
+
+#login-button:hover{
+    background-color: #013319;
+}
+
+.login-change-password-button-container{
+    background-color: #006430;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-register-button-container{
+    background-color: #006430;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-register-button-container a{
+    text-decoration: none;
+    color: white;
+    font-family: "DM Sans";
+}
+
+.login-register-button-text{
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    color: #013319;
+}
+
+.login-change-password-button-container:hover{
+    background-color: #013319;
+}
+
+body > div.wrapper > div.login-form-container > form > div:nth-child(3) > div.column-50-right > div > a{
+    color: white;
+    font-family: "DM Sans";
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+body > div.wrapper > div.login-form-container > form > div:nth-child(3){
+    margin-top: 20px;
+}
+
+/*change_password.php*/
+.send-link-form-container{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#send-link{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+}
+
+#send-link:hover{
+    background-color: #013319;
+}
+
+/*change_password_link_clicked*/
+.link-clicked-form-container{
+    width:45%;
+    margin-left: 30%;
+}
+
+#confirm-password-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+}
+
+#confirm-password-button:hover{
+    background-color: #013319;
+}
+
+/*users_page*/
+.user-page-container-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.user-page-container-right{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+
+#change-details-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+    margin-right: 40%;
+    margin-top: 8%;
+    float: right;
+}
+
+#change-details-button:hover{
+    background-color: #013319;
+}
+
+/*party_admin.php*/
+.governing-party-admin-container-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.governing-party-admin-container-right{
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+}
+
+body > div.wrapper > div.governing-party-admin-main-content > div.governing-party-admin-container-right > img{
+    height: 500px;
+}
+
+#governing-party-admin-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+    margin-right: 40%;
+    margin-top: 4%;
+    float: right;
+}
+
+#governing-party-admin-button:hover{
+    background-color: #013319;
+}
+
+/*election_admin.php*/
+.election-admin-form-container{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#election-admin-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+    margin-right: 40%;
+    margin-top: 4%;
+   float: right;
+}
+
+#election-admin-button:hover{
+    background-color: #013319;
+}
+
+/*audit.php*/
+.audit-call-to-action{
+    font-family: 'DM Sans';
+    color: #013319;
+    font-size: 1.5em;
+}
+
+.audit-container{
+    float: right;
+    margin-right: 30%;
+    overflow: hidden;
+}
+
+/*vote.php*/
+.vote-call-to-action{
+    font-family: 'DM Sans';
+    color: #013319;
+    font-size: 1.2em;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.vote-container-left{
+    width: 40%;
+    margin-left: 5%;
+    float:left;
+}
+
+.vote-container-right{
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+}
+
+body > div.wrapper > div.vote-main-content > div.vote-container-right > div > div > img{
+    width:80%;
+}
+
+.vote-field{
+    padding: 10px;
+    border: 1px solid #006430;
+    border-radius: 7px;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    color: #006430;
+    width:35%;
+}
+
+body > div.wrapper > div.vote-main-content > div.vote-container-right > div > img{
+    width: 700px;
+}
+
+#vote-button{
+    color: white;
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    border: 2px solid #006430;
+    background-color:  #006430;
+    margin-right: 52%;
+    margin-top: 4%;
+    float: right;
+}
+
+#vote-button:hover{
+    background-color: #013319;
+}
+
+/*stats.php*/
+.stats-call-to-action{
+    font-family: 'DM Sans';
+    color: #013319;
+    font-size: 1.2em;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.stats-container-left{
+    width: 40%;
+    margin-left: 5%;
+    float:left;
+}
+
+.stats-container-right{
+    width: 40%;
+    float: right;
+    margin-top:75px;
+}
+
+.rank{
+    padding: 3%;
+    border-radius: 7px;
+    border: 2px solid #013319;
+    width:65%;
+}
+
+.position{
+    font-family: "DM Sans";
+    font-size: 1.5em;
+    color: #013319;
+}
+
+#piechart > div > div:nth-child(1) > div > svg > g:nth-child(3) > text{
+    font-family: "DM Sans" !important;
+    font-size: 1.5em !important;
+    color: #013319 !important;
+}
+
+/*user-verification.php*/
+.approve-user-call-to-action{
+    font-family: 'DM Sans';
+    color: #013319;
+    font-size: 1.2em;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.approve-user-container-left{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+
+.approve-user-container-right{
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+}
